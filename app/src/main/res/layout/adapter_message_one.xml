@@ -14,7 +14,7 @@
         android:minHeight="50dp"
         android:id="@+id/message_send"
         android:layout_marginBottom="5dp"
-        android:background="@drawable/bg_chat_send"
+        android:background="@drawable/background_rounded"
         android:layout_marginStart="30dp"
         >
 

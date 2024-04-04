@@ -17,15 +17,16 @@ import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        val btnChatbot: FloatingActionButton = findViewById(R.id.btn_chatbot)
-//
-//        btnChatbot.setOnClickListener {
-//            val intent = Intent(this@MainActivity, ChatbotActivity::class.java)
-//            startActivity(intent)
-//        }
+        val btnChatbot: FloatingActionButton = findViewById(R.id.btn_chatbot)
+
+        btnChatbot.setOnClickListener {
+            val intent = Intent(this@MainActivity, ChatbotActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 
