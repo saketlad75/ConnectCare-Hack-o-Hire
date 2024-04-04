@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_register"
+    android:layout_width="match_parent"
+    android:layout_height="914dp"
+    android:background="@drawable/container_register">
+
+    <ImageView
+        android:id="@+id/image_removebg_preview"
+        android:layout_width="284dp"
+        android:layout_height="177dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginBottom="737dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_removebg_preview" />
+
+    <TextView
+        android:id="@+id/text_login_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="665dp"
+        android:layout_marginBottom="228dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Already have an account? Login Now"
+        android:textColor="#FF1E232C"
+        android:textSize="15dp"
+        android:clickable="true"
+        />
+
+    <FrameLayout
+        android:id="@+id/btn_register"
+        android:layout_width="331dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="561dp"
+        android:layout_marginBottom="297dp"
+        android:background="@drawable/btn_register">
+
+        <ImageView
+            android:id="@+id/img_rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/img_rectangle"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/txt_register"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginLeft="134dp"
+            android:layout_marginRight="134dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="31.68dp"
+            android:text="Register"
+            android:textColor="#FFFFFFFF"
+            android:textSize="15dp" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/container_password_input"
+        android:layout_width="331dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="407dp"
+        android:layout_marginBottom="451dp"
+        android:background="@drawable/container_password_input">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_email_input"
+        android:layout_width="331dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="339dp"
+        android:layout_marginBottom="519dp"
+        android:background="@drawable/container_email_input">
+
+        <ImageView
+            android:id="@+id/image_rectangle3"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/image_rectangle3"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/text_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="205dp"
+            android:layout_marginTop="17.5dp"
+            android:layout_marginBottom="18.5dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Phone Number"
+            android:textColor="#FF8391A1"
+            android:textSize="15dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_username_input"
+        android:layout_width="331dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="271dp"
+        android:layout_marginBottom="587dp"
+        android:background="@drawable/container_username_input">
+
+        <ImageView
+            android:id="@+id/image_rectangle2"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/image_rectangle2"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="270dp"
+            android:layout_marginTop="17.5dp"
+            android:layout_marginBottom="18.5dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Name"
+            android:textColor="#FF8391A1"
+            android:textSize="15dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_text"
+        android:layout_width="331dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginBottom="670dp">
+
+        <TextView
+            android:id="@+id/text_get_started"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Get Started"
+            android:textColor="#FF1E232C"
+            android:textSize="30dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_back"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="346dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="833dp">
+
+        <ImageView
+            android:id="@+id/image_rectangle4"
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:background="@drawable/image_rectangle4"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/image_back_arrow"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="11dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_back_arrow" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="914dp"
+    android:background="@drawable/drawable_shape">
+
+    <ImageView
+        android:id="@+id/container_group"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="763dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/container_group" />
+
+    <TextView
+        android:id="@+id/container_my_tickets"
+        android:layout_width="80dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="872dp"
+        android:layout_marginBottom="-2dp"
+        android:layout_gravity="top|left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="My Tickets"
+        android:textColor="#FF4B5B98"
+        android:textSize="10dp" />
+
+    <FrameLayout
+        android:layout_width="335dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="top|left">
+
+        <ImageView
+            android:id="@+id/tab_bar_image"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_gravity="left"
+            android:scaleType="centerInside"
+            android:src="@drawable/tab_bar_image" />
+
+        <TextView
+            android:id="@+id/tab_bar_text"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:layout_marginLeft="136dp"
+            android:layout_marginRight="135dp"
+            android:layout_marginTop="10.5dp"
+            android:layout_marginBottom="8.5dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Search"
+            android:textColor="#FF1E1E2D"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/tab_bar_filter_icon"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="293dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/tab_bar_filter_icon" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_search_button"
+        android:layout_width="335dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="135dp"
+        android:layout_gravity="top|left">
+
+        <ImageView
+            android:id="@+id/image_search_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_search_button"
+            android:scaleType="centerCrop" />
+
+        <FrameLayout
+            android:id="@+id/container_group21"
+            android:layout_width="295dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="11dp"
+            android:layout_gravity="left">
+
+            <FrameLayout
+                android:id="@+id/container_frame2"
+                android:layout_width="76dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left">
+
+                <ImageView
+                    android:id="@+id/image_loupe"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="left"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/image_loupe" />
+
+                <TextView
+                    android:id="@+id/text_how_to_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="-1dp"
+                    android:layout_marginBottom="-2dp"
+                    android:layout_gravity="top"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="How to "
+                    android:textColor="#FFA2A2A7"
+                    android:textSize="14dp" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/image_frame1"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="283dp"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="top"
+                android:scaleType="centerInside"
+                android:src="@drawable/image_frame1" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/container_group3"
+        android:layout_width="409dp"
+        android:layout_height="86dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="765dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/container_group3" />
+
+
+    <TextView
+        android:id="@+id/text_my_tickets"
+        android:layout_width="80dp"
+        android:layout_height="14dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="810dp"
+        android:layout_marginBottom="-2dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="My Tickets"
+        android:textColor="#FF4B5B98"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:id="@+id/container_ellipse_search"
+        android:layout_width="87dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="690dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/container_ellipse"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/container_vector_search"
+        android:layout_width="55.99dp"
+        android:layout_height="49.82dp"
+        android:layout_marginLeft="336dp"
+        android:layout_marginRight="19.01dp"
+        android:layout_marginTop="708dp"
+        android:layout_marginBottom="118.18dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/container_vector" />
+
+    <ImageView
+        android:id="@+id/container_vector1_search"
+        android:layout_width="19.59dp"
+        android:layout_height="5.63dp"
+        android:layout_marginLeft="368dp"
+        android:layout_marginRight="23.41dp"
+        android:layout_marginTop="713dp"
+        android:layout_marginBottom="157.37dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/container_vector1" />
+
+
+    <ImageView
+        android:id="@+id/img_paper"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="239dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_paper" />
+
+    <FrameLayout
+        android:id="@+id/container_group1"
+        android:layout_width="323dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="322dp"
+        android:layout_gravity="top|left">
+
+        <FrameLayout
+            android:id="@+id/container_group2"
+            android:layout_width="match_parent"
+            android:layout_height="18.43dp"
+            android:layout_marginLeft="52.33dp"
+            android:layout_marginTop="2.05dp"
+            android:layout_gravity="top">
+
+            <TextView
+                android:id="@+id/text_apple_store"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_marginTop="-1.29dp"
+                android:layout_marginBottom="-1.29dp"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="How to pay in a cheque?"
+                android:textColor="#FF1E1E2D"
+                android:textSize="16dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/image_group"
+            android:layout_width="37.89dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@drawable/image_group">
+
+            <ImageView
+                android:layout_width="37.89dp"
+                android:layout_height="43dp"
+                android:background="@drawable/drawable_shape_2"
+                android:scaleType="centerInside" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/image_paper"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="top|left"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_paper" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_group5"
+        android:layout_width="323dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="480dp"
+        android:layout_gravity="top|left">
+
+        <FrameLayout
+            android:id="@+id/container_group6"
+            android:layout_width="match_parent"
+            android:layout_height="18.43dp"
+            android:layout_marginLeft="52.33dp"
+            android:layout_marginTop="2.05dp"
+            android:layout_gravity="top">
+
+            <TextView
+                android:id="@+id/text_apple_store2"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_marginTop="-1.29dp"
+                android:layout_marginBottom="-1.29dp"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="How to pay in a cheque?"
+                android:textColor="#FF1E1E2D"
+                android:textSize="16dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/image_group2"
+            android:layout_width="37.89dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@drawable/image_group2">
+
+            <ImageView
+                android:layout_width="37.89dp"
+                android:layout_height="43dp"
+                android:background="@drawable/drawable_shape_3"
+                android:scaleType="centerInside" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/image_paper1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="top|left"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_paper1" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_group7"
+        android:layout_width="323dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="401dp"
+        android:layout_gravity="top|left">
+
+        <FrameLayout
+            android:id="@+id/container_group8"
+            android:layout_width="match_parent"
+            android:layout_height="18.43dp"
+            android:layout_marginLeft="52.33dp"
+            android:layout_marginTop="2.05dp"
+            android:layout_gravity="top">
+
+            <TextView
+                android:id="@+id/text_apple_store3"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_marginTop="-1.29dp"
+                android:layout_marginBottom="-1.29dp"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="How to pay in a cheque?"
+                android:textColor="#FF1E1E2D"
+                android:textSize="16dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/image_group3"
+            android:layout_width="37.89dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@drawable/image_group3">
+
+            <ImageView
+                android:layout_width="37.89dp"
+                android:layout_height="43dp"
+                android:background="@drawable/drawable_shape_4"
+                android:scaleType="centerInside" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/image_paper2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="top|left"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_paper2" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/container_ellipse"
+        android:layout_width="87dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="728dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/container_ellipse"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/container_vector"
+        android:layout_width="55.99dp"
+        android:layout_height="49.82dp"
+        android:layout_marginLeft="336dp"
+        android:layout_marginRight="19.01dp"
+        android:layout_marginTop="746dp"
+        android:layout_marginBottom="118.18dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/container_vector" />
+
+    <ImageView
+        android:id="@+id/container_vector1"
+        android:layout_width="19.59dp"
+        android:layout_height="5.63dp"
+        android:layout_marginLeft="368dp"
+        android:layout_marginRight="23.41dp"
+        android:layout_marginTop="751dp"
+        android:layout_marginBottom="157.37dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/container_vector1" />
+</FrameLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "206687703581",
+    "project_id": "barclays-connectcare",
+    "storage_bucket": "barclays-connectcare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206687703581:android:f9c26db283b5e42e262cf4",
+        "android_client_info": {
+          "package_name": "com.example.barclaysconnectcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoyfjGIdocPQegU873odQv6tSF_5bgm1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
