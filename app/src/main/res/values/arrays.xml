@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- arrays.xml -->
+
+<resources>
+    <string-array name="departments">
+        <item>Payments</item>
+        <item>Credit Card</item>
+        <item>Bank Account Related</item>
+        <item>Loan Related</item>
+    </string-array>
+</resources>

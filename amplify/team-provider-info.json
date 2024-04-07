@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-barclaysconnectcare-dev-dcf56-authRole",
+      "UnauthRoleArn": "arn:aws:iam::900082062267:role/amplify-barclaysconnectcare-dev-dcf56-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::900082062267:role/amplify-barclaysconnectcare-dev-dcf56-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-barclaysconnectcare-dev-dcf56-deployment",
+      "UnauthRoleName": "amplify-barclaysconnectcare-dev-dcf56-unauthRole",
+      "StackName": "amplify-barclaysconnectcare-dev-dcf56",
+      "StackId": "arn:aws:cloudformation:us-east-1:900082062267:stack/amplify-barclaysconnectcare-dev-dcf56/288b5110-f41a-11ee-b6d6-0affc77ebc97",
+      "AmplifyAppId": "d22de3bcfwxg4k"
+    },
+    "categories": {
+      "auth": {
+        "barclaysconnectcare1960d608": {}
+      },
+      "storage": {
+        "s3fe3dd8a9": {}
+      }
+    }
+  }
+}
