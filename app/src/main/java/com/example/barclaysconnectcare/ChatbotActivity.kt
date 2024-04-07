@@ -32,9 +32,6 @@ import java.util.UUID
 class ChatbotActivity : AppCompatActivity() {
     private lateinit var binding: ActivityChatbotBinding
     private var messageList: ArrayList<Message> = ArrayList()
-    private var isRegisteringComplaint = false
-    private var complaintData: MutableMap<String, String> = mutableMapOf()
-
 //
 
     //dialogFlow
@@ -60,7 +57,6 @@ class ChatbotActivity : AppCompatActivity() {
             if (message.isNotEmpty()) {
                 addMessageToList(message, false)
                 sendMessageToBot(message)
-//                sendMessageBot(message)
             } else {
                 Toast.makeText(this, "Please enter text!", Toast.LENGTH_SHORT).show()
             }
@@ -126,32 +122,6 @@ class ChatbotActivity : AppCompatActivity() {
             }
         }
     }
-
-    private fun sendMessageBot(message: String) {
-        if (message.trim().equals("Register Complaint", ignoreCase = true)) {
-            // If user input is "Register Complaint", set the flag and prompt for the next input
-            isRegisteringComplaint = true
-//            addMessageToList("Please provide details for the complaint.", false)
-        } else if (isRegisteringComplaint) {
-            // If currently registering a complaint, store the input as complaint data
-            complaintData["complaintDetails"] = message
-            // Convert the complaint data to JSON format
-//            val jsonData = Gson().toJson(complaintData)
-            // Display a toast message indicating that the complaint has been recorded
-            Toast.makeText(this, "Complaint recorded:", Toast.LENGTH_SHORT).show()
-            // Reset the flag and complaint data
-            isRegisteringComplaint = false
-            complaintData.clear()
-        } else {
-            // For other inputs, proceed with the regular message sending process
-            val input = QueryInput.newBuilder()
-                .setText(TextInput.newBuilder().setText(message).setLanguageCode("en-US")).build()
-            GlobalScope.launch {
-                sendMessageInBg(input)
-            }
-        }
-    }
-
 
     private fun updateUI(response: DetectIntentResponse) {
         val botReply: String = response.queryResult.fulfillmentText

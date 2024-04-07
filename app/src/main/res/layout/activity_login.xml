@@ -1,57 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:padding="16dp"
-    tools:context=".MainActivity">
+    android:background="@drawable/drawable_shape">
 
-    <!-- Barclays Logo -->
-    <ImageView
-        android:id="@+id/imageViewBarclaysLogo"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@drawable/barclayslog"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp" />
 
-    <EditText
-        android:id="@+id/editTextEmail"
-        android:layout_width="match_parent"
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/phone_number"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/imageViewBarclaysLogo"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:hint="Email"
-        android:inputType="textEmailAddress" />
-
-    <EditText
-        android:id="@+id/editTextPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/editTextEmail"
-        android:layout_marginTop="18dp"
-        android:layout_marginBottom="16dp"
-        android:hint="Password"
-        android:inputType="textPassword" />
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/drawable_shape_2"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="Enter phone number"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="357dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/buttonLogin"
-        android:layout_width="match_parent"
+        android:id="@+id/get_otp_button"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/editTextPassword"
-        android:layout_marginTop="52dp"
-        android:onClick="login"
-        android:text="Login" />
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="32dp"
+        android:text="Get OTP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_number" />
 
-    <Button
-        android:id="@+id/buttonRegsiter"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/reg_now"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/buttonLogin"
-        android:layout_marginTop="39dp"
-        android:onClick="login"
-        android:text="Register" />
+        android:layout_marginTop="64dp"
+        android:text="Don’t have an account? Register Now"
+        android:textColor="#FF1E232C"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/get_otp_button" />
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
